@@ -21,12 +21,6 @@ def deets():
 
 
     messagebox.showinfo("User Information", "Name: " + name.get() + "\nAddress: " + address.get() + "\nContact Number: " + contact.get() + "\nEmail: " + email.get())
-
-
-
-
-
-
 def clr():  
     name.delete(0, tk.END)
     address.delete(0, tk.END)
